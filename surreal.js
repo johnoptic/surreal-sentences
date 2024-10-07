@@ -32,19 +32,19 @@ const surrealSentences = () => {
 };
 
 const randomSelector = () => {
-    const replace1 = ['see', 'watch', 'fix', 'tell', 'observe', 'set', 'fasten', 'adjust', 'restore', 'inform', 'reveal', 'announce', 'describe', 'disclose', 'convey', 'explain', 'repair', 'resolve'];
-    const replace3 = ['world', 'realm', 'domain', 'entity', 'element', 'object', 'artifact', 'monkey', 'elephant', 'dog', 'biscuit', 'cake', 'key', 'painting', 'glass', 'pigeon', 'cat', 'car', 'bus'];
-    const replace6 = ['grain', 'seed', 'kernel', 'granule', 'particle', 'berry', 'drop', 'flake', 'morsel', 'pixel', 'chipping', 'smudge', 'dish', 'puddle', 'nodule', 'scrape', 'trickle', 'figment'];
-    const replace8 = ['sand', 'snow', 'sediment', 'clay', 'biscuit', 'dust', 'gravy', 'hair', 'breadcrumb', 'tomato', 'smoke', 'dirt', 'stain', 'flame', 'potato', 'shadow', 'milk', 'ember', 'flicker'];
-    const replace11 = ['heaven', 'penumbra', 'silhouette', 'haze' , 'utopia', 'nirvana', 'eden', 'paradise', 'valhalla', 'sanctuary', 'realm', 'server', 'modem', 'elysium', 'field' , 'pitch', 'box'];
-    const replace14 = ['wild', 'unruly', 'feral', 'brazen', 'schizoid', 'untamed', 'independent', 'careless', 'wandering', 'free', 'natural', 'weird', 'flamboyant', 'irreverent'];
-    const replace15 = ['flower', 'dog', 'donkey', 'biscuit', 'petal', 'bush', 'seedling', 'wart', 'bobblehead', 'tumbler', 'ornament', 'bag', 'chimp', 'book', 'cheeseburger', 'bottle', 'telephone', 'monkey'];
-    const replace16 = ['hold', 'handle', 'juggle', 'fondle', 'stroke', 'weigh', 'lift', 'squeeze', 'crush', 'tickle', 'fiddle', 'poke', 'flick', 'pick', 'massage'];
-    const replace17 = ['eternity', 'infinity', 'time', 'hours', 'space', 'stars', 'lego', 'warts', 'beans', 'ash', 'coconuts', 'biscuits', 'water', 'melons', 'chocolate', 'travel guides', 'glass', 'cards'];
-    const replace20 = ['palm', 'foot', 'scalp', 'naval', 'brow', 'cusp', 'crack', 'tip', 'crook', 'groove', 'crease', 'furl'];
-    const replace23 = ['hand', 'toes', 'groin', 'elbow', 'forehead', 'teeth', 'eyelids', 'nose', 'head', 'shoulders', 'knees', 'foot', 'fingers', 'chin'];
-    const replace25 = ['eternity', 'maternity', 'paternity', 'lightspeed', 'mandarin', 'fraternity', 'germany', 'memory', 'undefined', 'null', 'emptiness', 'abyss', 'clocks', 'machines'];
-    const replace28 = ['hour', 'elephant', 'age', 'aeon', 'afterlife', 'minute', 'egg', 'idea', 'ovary', 'napkin', 'android', 'igloo', 'ego', 'umbrella', 'underdog', 'barmcake'];
+    const replace1 = ['see', 'watch', 'fix', 'tell', 'observe', 'set', 'fasten', 'adjust', 'restore', 'inform', 'reveal', 'announce', 'describe', 'disclose', 'convey', 'explain', 'repair', 'resolve', 'envisage', 'visit', 'charm', 'convince', 'create'];
+    const replace3 = ['world', 'realm', 'domain', 'entity', 'element', 'object', 'artifact', 'monkey', 'elephant', 'dog', 'biscuit', 'cake', 'key', 'painting', 'glass', 'pigeon', 'cat', 'car', 'bus', 'globe', 'dictator', 'book', 'camel', 'donkey', 'country'];
+    const replace6 = ['grain', 'seed', 'kernel', 'granule', 'particle', 'berry', 'drop', 'flake', 'morsel', 'pixel', 'chipping', 'smudge', 'dish', 'puddle', 'nodule', 'scrape', 'trickle', 'figment', 'pea', 'scratching', 'crystal', 'jar', 'sinew', 'crease', 'flicker'];
+    const replace8 = ['sand', 'snow', 'sediment', 'clay', 'biscuit', 'dust', 'gravy', 'hair', 'breadcrumb', 'tomato', 'smoke', 'dirt', 'stain', 'flame', 'potato', 'shadow', 'milk', 'ember', 'grease', 'water', 'grass'];
+    const replace11 = ['heaven', 'penumbra', 'silhouette', 'haze' , 'utopia', 'nirvana', 'eden', 'paradise', 'valhalla', 'sanctuary', 'realm', 'server', 'modem', 'elysium', 'field' , 'pitch', 'box', 'ghost', 'spirit', 'gravity'];
+    const replace14 = ['wild', 'unruly', 'feral', 'brazen', 'schizoid', 'untamed', 'independent', 'careless', 'wandering', 'free', 'natural', 'weird', 'flamboyant', 'irreverent', 'hostile', 'surreal', 'random'];
+    const replace15 = ['flower', 'dog', 'donkey', 'biscuit', 'petal', 'bush', 'seedling', 'wart', 'bobblehead', 'tumbler', 'ornament', 'bag', 'chimp', 'book', 'cheeseburger', 'bottle', 'telephone', 'monkey', 'lobster', 'well', 'film', 'caravan', 'cloister', 'scone', 'keyboard', 'mouse'];
+    const replace16 = ['hold', 'handle', 'juggle', 'fondle', 'stroke', 'weigh', 'lift', 'squeeze', 'crush', 'tickle', 'fiddle', 'poke', 'flick', 'pick', 'massage', 'jiggle', 'wiggle', 'smoke'];
+    const replace17 = ['eternity', 'infinity', 'time', 'hours', 'space', 'stars', 'lego', 'warts', 'beans', 'ash', 'coconuts', 'biscuits', 'water', 'melons', 'chocolate', 'travel guides', 'glass', 'cards', 'coins', 'bottlecaps', 'forever', 'whiskers', 'curtains', 'gravity', 'boolean', 'socks'];
+    const replace20 = ['palm', 'foot', 'scalp', 'naval', 'brow', 'cusp', 'crack', 'tip', 'crook', 'groove', 'crease', 'furl', 'crevice', 'gap', 'edge', 'wedge', 'length'];
+    const replace23 = ['hand', 'toes', 'groin', 'elbow', 'forehead', 'teeth', 'eyelids', 'nose', 'head', 'shoulders', 'knees', 'foot', 'fingers', 'chin', 'folicles', 'lips', 'ears' ,'cheeks', 'heels'];
+    const replace25 = ['eternity', 'maternity', 'paternity', 'lightspeed', 'mandarin', 'fraternity', 'germany', 'memory', 'undefined', 'null', 'emptiness', 'abyss', 'clocks', 'machines', 'gravity' ,'chapstick', 'dogs', 'badgers', 'crayons', 'teabags'];
+    const replace28 = ['hour', 'elephant', 'age', 'aeon', 'afterlife', 'minute', 'egg', 'idea', 'ovary', 'napkin', 'android', 'igloo', 'ego', 'umbrella', 'underdog', 'barmcake', 'moment', 'petasecond', 'inch', 'fraction', 'wavelength'];
 
 
     words[1] = replace1[Math.floor(Math.random() * replace1.length)];
