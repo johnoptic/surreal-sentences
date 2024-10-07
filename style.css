@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin-top: 4em;
+}
+
+#doomface {
+    height: 150px;
+    width: auto;
+    margin-bottom: 1em;
+}
+
+#jumblerBtn {
+    background-color: black;
+    color: whitesmoke;
+    border: solid 2px goldenrod;
+    border-radius: 0.5em;
+    height: 3em;
+    width: auto;
+    padding: 5px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#jumblerBtn:hover {
+    
+    color: red;
+}
+
+#header {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: ghostwhite;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0 2em;
+    box-sizing: border-box;
+}
+
+#blake {
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+
+@media screen and (max-device-width: 480px) {
+    #blake{
+        font-size: 1em;
+        line-height: 2em;
+    }
+}
